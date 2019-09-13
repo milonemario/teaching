@@ -42,6 +42,7 @@
   },
   "license": "MIT",
   "dependencies": {
-    "reveal.js-plugins": "^1.0.0"
+    "reveal.js-plugins": "^1.0.0",
+    "reveald3": "^1.5.4"
   }
 }
