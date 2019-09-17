@@ -42,7 +42,6 @@
   },
   "license": "MIT",
   "dependencies": {
-    "reveal.js-plugins": "^1.0.0",
-    "reveald3": "^1.5.4"
+    "decktape": "^2.9.3"
   }
 }
