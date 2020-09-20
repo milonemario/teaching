@@ -1,0 +1,547 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<title>Big Data and Co</title>
+
+		<link rel="stylesheet" href="css/reset.css">
+		<link rel="stylesheet" href="css/reveal.css">
+		<link rel="stylesheet" href="css/theme/sky.css">
+
+		<!-- Theme used for syntax highlighting of code -->
+		<link rel="stylesheet" href="lib/css/monokai.css">
+
+		<!-- Printing and PDF exports -->
+		<script>
+			var link = document.createElement( 'link' );
+			link.rel = 'stylesheet';
+			link.type = 'text/css';
+			link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
+			document.getElementsByTagName( 'head' )[0].appendChild( link );
+		</script>
+	</head>
+	<body>
+		<div class="reveal">
+			<div class="slides">
+				<section>
+					<h2>Big Data and Co</h2>
+					<p>A glimpse on possibilities in Accounting</p>
+				</section>
+
+				<section>
+					<h3>Who am I?</h3>
+					<br>
+					<p>Assistant Professor of Accounting at Rady</p>
+					<br>
+					<ul style="font-size:70%">
+						<li>PhD in Finance - Dauphine University, France</li>
+						<li>Master in Finance - Dauphine University, France</li>
+						<li>Master in AI - Toulouse University, France</li>
+						<li>Master in CS Engineering - INSA, France</li>
+					</ul>
+				</section>
+
+				<section>
+					<h3>Research</h3>
+					<h4>Before</h4>
+					<ul style="font-size:80%">
+						<li>AI - Reinforcement Learning</li>
+					</ul>
+					<br>
+					<br>
+					<h4>Recently</h4>
+					<ul style="font-size:80%">
+						<li>Banking Regulation</li>
+						<li>Impact of data on financing decisions</li>
+					</ul>
+					<br>
+					<br>
+					<h4>Now</h4>
+					<ul style="font-size:80%">
+						<li>Real effects implications of accounting rules</li>
+						<li>Public disclosures and Information Processing </li>
+					</ul>
+				</section>
+
+				<section>
+					<h4>International Experience</h4>
+					<br>
+					<p>Hong Kong University</p>
+					<p>Harvard</p>
+					<p>Imperial College Business School</p>
+				</section>
+
+				<section>
+					<h4>Contact</h4>
+					<p>mmilone@ucsd.edu</p>
+					<p>858-534-8511</p>
+					<p>Office 3W102</p>
+				</section>
+
+				<section>
+					<h3>Financial Accounting</h3>
+					<br/>
+					<p class="fragment">Aggregation of information into financial statements</p>
+					<br>
+					<p class="fragment">Provides information about past transactions</p>
+				</section>
+
+				<section>
+					<h3>Managerial Accounting</h3>
+					<br/>
+					<p class="fragment" data-fragment-index="1">Produce information for management decisions</p>
+					<p class="fragment" data-fragment-index="3">Needs a lot of Data</p>
+					<p class="fragment" data-fragment-index="2">Focuses on the future</p>
+					<p class="fragment" data-fragment-index="4">Need for prediction</p>
+				</section>
+
+				<section>
+					<h3>On the need for Data</h3>
+					<br/>
+					<span>
+						<p class="fragment">Cost estimations</p>
+						<p class="fragment">Cost allocations</p>
+						<p class="fragment">Breakeven Point</p>
+						<p class="fragment">Sensitivity Analysis</p>
+						<p class="fragment">Transfer Pricing</p>
+					</span>
+				</section>
+
+				<section>
+					<h3>On the need for Prediction</h3>
+					<br />
+					<span class="fragment">
+						<h4>About the future</h4>
+							<p>Forecast of Cash Flows</p>
+							<p>Risk Management</p>
+							<p>...</p>
+					</span>
+					<span class=fragment>
+						<h4>About things we do not know</h4>
+							<p>Cost Analysis</p>
+							<p>Fraud detection</p>
+							<p>...</p>
+					</span>
+				</section>
+
+
+				<section>
+					<h4>Data is coming ...</h4>
+				</section>
+
+				<section>
+					<canvas data-chart="bar">
+						<!--
+						{
+						 "data": {
+						  "labels": ["2013","2010"," 2025"],
+						  "datasets": [
+						   {
+						    "data":[4.4,44,163],
+						    "label":"Amount of data created every year, in ZETABYTEs"
+						   }
+						  ]
+						 },
+						 "options": {"responsive": "true"}
+						}
+						-->
+					</canvas>
+					<p>1 ZB = 1 Billion Terabytes</p>
+				</section>
+
+				<section>
+					<h3>Big Data</h3>
+					<br />
+					<br />
+					<h4>Are companies there yet?</h4>
+				</section>
+
+				<section>
+					<h3>What is Big Data?</h3>
+					<br />
+					<p class="fragment">Just a Big Buzzword?</p>
+					<p class="fragment">Just a lot more data?</p>
+					<p class="fragment">The combination of previously separate datasets?</p>
+					<p class="fragment">Structure vs unstructure data?</p>
+				</section>
+				
+				<section>
+					<h3>What are companies doing today?</h3>
+					<br />
+					<span class="fragment">
+						<h4>Business Analytics</h4>
+						<p>Microsoft BI and co</p>
+					</span>
+					<br />
+					<span class="fragment">
+						<h4>Predictive Analytics</h4>
+						<p>Slowly Starting</p>
+					</span>
+				</section>
+
+				<section>
+					<h3>RPA</h3>
+					<h4> = Robot Processing Automation </h4>
+					<br>
+					<p class='fragment'>Automation of routine rules-based business processes</p>
+					<br>
+					<p class='fragment'>Embedded into Enterprise Resource Planning (ERP) softwares</p>
+					<br>
+					<p class='fragment'>UiPath, Blue Prism, Automation Anywhere</p>
+				</section>
+
+				<section>
+					<h3>RPA</h3>
+					<h4>Examples</h4>
+					<br>
+					<span class="fragment">
+						<p>Invoice processing</p>
+						<p>Data validation</p>
+						<p>Customer Relationship</p>
+						<p>HR processes (payroll, ...)</p>
+					</span>
+
+				</section>
+
+				<section>
+					<h3>RPA</h3>
+					<h4>Why does it matter?</h4>
+					<br>
+					<p class='fragment'>Digitization of processes</p>
+					<br>
+					<p class='fragment'>Enhances the creation and gathering of data</p>
+					<br>
+					<p class='fragment'>First step towards <em>Intelligent Automation</em></p>
+				</section>
+
+				<section>
+					<h3>RPA</h3>
+					<canvas height="100" data-chart="doughnut">
+						<!--
+						{
+						 "data": {
+						  "labels": ["Have started RPA","Have NOT started RPA"],
+						  "datasets": [
+						   {
+						    "data":[0.48,0.52],
+							"backgroundColor": ["rgba(20,220,220,.8)","rgba(220,120,120,.8)"]
+						   }
+						  ]
+						 },
+						 "options": { "responsive": "false" }
+						}
+						-->
+					</canvas>
+					<p> < 50% of companies have started RPA </p>
+					<br>
+					<small>Data from EY, 2018</small>
+				</section>
+
+				<section>
+					<h3>RPA</h3>
+					<br>
+					<canvas height="100" data-chart="doughnut">
+						<!--
+						{
+						 "data": {
+						  "labels": ["Have implemented RPA at scale","Have NOT"],
+						  "datasets": [
+						   {
+						    "data":[0.03,0.97],
+							"backgroundColor": ["rgba(20,220,220,.8)","rgba(220,120,120,.8)"]
+						   }
+						  ]
+						 },
+						 "options": { "responsive": "false" }
+						}
+						-->
+					</canvas>
+					<p> 3% of enterprises have achieved scale</p>
+					<br>
+					<small>Data from EY, 2018</small>
+				</section>
+
+				<section>
+					<h3>Machine Learning</h3>
+					<h4>And how it affects Accounting</h4>
+				</section>
+
+				<section>
+					<h3>How do we solve problems?</h3>
+					<br>
+					<p class="fragment">Need to find an <em>Algorithm</em></p>
+					<br>
+					<p class="fragment">= Steps to solve a problem</p>
+				</section>
+
+				<section>
+					<h3>How about ML?</h3>
+					<br>
+					<p class="fragment">We want the machine to find the algorithm by itself</p>
+					<br>
+					<h4 class="fragment">How do we do that?</h4>
+					<br>
+					<span class="fragment">
+						<p>Supervised / Unsupervised Learning</p>
+						<p>Reinforcement Learning</p>
+					</span>
+				</section>
+ 
+				<section>
+					<div>
+						<img src="img/tictactoe.svg" height="200"></img>
+						<img src="img/chess.svg" height="200"></img>
+					</div>
+					<div>
+						<img src="img/go.png" height="200"></img>
+						<img src="img/mnist.png" height="200"></img>
+					</div>
+				</section>
+
+				<section>
+					<h3>How does the machine learn?</h3>
+					<br>
+					<span class="fragment">
+						<h4>Need to map an <font color=#f67d49>input</font> to an <font color=#42c47e>output</font></h4>
+						<p>Input: board, image</p>
+						<p>Output: move, number</p>
+					</span>
+					<br>
+					<span class="fragment">
+						<h4>How do we map these?!</h4>
+						<p>Highly non-linear math <font color=#477fc7>function</font></p>
+					</span>
+				</section>
+
+				<section>
+					<h3>Highly what?!</h3>
+					<br>
+					<h4 class="fragment">Possible Methods</h4>
+					<p class="fragment">Regression / Classification Trees</p>
+					<p class="fragment">Random Forests</p>
+					<p class="fragment">K-nearest neighbor</p>
+					<p class="fragment">Neural Networks</p>
+					<p class="fragment">...</p>
+				</section>
+
+				<section data-transition="slide-in none-out">
+					<h3>Neural Networks</h3>
+					<img class=fragment src="tikz/perceptron.svg" height="500"></img>
+				</section>
+				<section data-transition="none">
+					<h3>Neural Networks</h3>
+					<img src="tikz/neural-network-1.svg" height="500"></img>
+				</section>
+				<section data-transition="none">
+					<h3>Neural Networks</h3>
+					<img src="tikz/neural-network-2.svg" height="500"></img>
+				</section>
+				<section data-transition="none">
+					<h3>Neural Networks</h3>
+					<img src="img/mnist_1layer.png" height="500"></img>
+				</section>
+				<section data-transition="none">
+					<h3>Neural Networks</h3>
+					<img src="img/mnist_2layers.png" height="500"></img>
+				</section>
+
+				<section>
+					<h3>Sure, but how does it learn?!</h3>
+					<img class="fragment" src="img/mnist.png" height="400"></img>
+					<p class="fragment">Supervised Learning</p>
+				</section>
+
+				<section>
+					<h3>Why do we care?</h3>
+					<br>
+					<p>Real life problems are highly non-linear</p>
+					<br>
+					<p>Difficult to find rule based algorithms</p>
+				</section>
+
+				<section>
+					<h3>Examples</h3>
+					<br>
+					<p>Image recognition</p>
+					<p>Translations</p>
+					<p>Self-Driving</p>
+					<p>Natural Language Processing</p>
+					<p>...</p>
+				</section>
+
+				<section>
+					<h3>Machine Learning in Accounting</h3>
+					<br>
+					<span class="fragment">
+						<p>Error detections</p>
+						<p>High risk transactions detection</p>
+						<p>Transaction allocations</p>
+						<p>Fraud detections</p>
+					</span>
+				</section>
+
+				<section>
+					<h3>Machine Learning in Public Accounting</h3>
+					<br>
+					<p class="fragment">ML requires a lot of data to learn</p>
+					<p class="fragment">Audit firms observe many firms over time</p>
+					<p class="fragment">They observe errors in many different situations</p>
+					<p class="fragment">Increased ability to use ML methods</p>
+				</section>
+
+				<section>
+					<h4>RPA + ML = Intelligent Automation</h4>
+				</section>
+
+				<section>
+					<h3>This is awesome!</h3>
+					<h4 class="fragment">Not really...</h4>
+				</section>
+
+				<section>
+					<span class="fragment">
+						<h4>Computers are "too" smart ...</h4>
+						<p>Overfitting problems</p>
+						<p>Regularization methods</p>
+					</span>
+					<br>
+					<span class="fragment">
+						<h4>Or not good enough...</h4>
+						<p>Techniques allow to tackle complex problems</p>
+						<p>But we do not yet have enough ressources</p>
+					</span>
+					<br>
+					<h4 class="fragment">Basically, it is hard to design ...</h4>
+				</section>
+
+				<section>
+					<h3>Machine Learning Pitfalls (1)</h3>
+					<br>
+					<p class="fragment">ML (supervised) requires a lot of data to learn</p>
+				</section>
+
+				<section>
+					<h3>Machine Learning Pitfalls (2)</h3>
+					<br>
+					<p class="fragment">Can only learn information from the given data</p>
+					<p class="fragment">Garbage In = Garbage Out</p>
+					<p class="fragment"><em>Cannot</em> adapt to unknown situations</p>
+				</section>
+
+				<section>
+					<h3>Machine Learning Pitfalls (3)</h3>
+					<br>
+					<p class="fragment">Need to have a way to improve ...</p>
+					<p class="fragment">... still need humans</p>
+				</section>
+
+				<section>
+					<h3>Is that all?</h3>
+				</section>
+
+				<section>
+					Accounting is about recording transactions
+				</section>
+
+				<section>
+					<h3>Blockchain</h3>
+					<br>
+					<p class="fragment">Created to solve the double spending problem without trusted third party</p>
+				</section>
+
+				<section>
+					<h3>Traditionally</h3>
+					<br>
+					<p>Third party records all transactions</p>
+					<p>When asked for, can say if a new transaction is possible (i.e. pay)</p>
+					<p>All parties involved trust the third party</p>
+				</section>
+
+				<section>
+					<h3>Blockchain in Accounting</h3>
+					<br>
+					<p>Like Accounting, Blockchain is about registering transactions</p>
+					<p>It seems likely to disrupt accounting</p>
+				</section>
+
+				<section>
+					<h3>Blockchain in Accounting</h3>
+					<br>
+					<p>Audit is about verifying transactions</p>
+					<p>Blockchain provides a way to trust the information</p>
+					<p>Implementations started in China</p>
+				</section>
+
+				<section>
+					<h3>Should we be worried?</h3>
+					<h4>Not really ...</h4>
+					Accounting involves a lot of reasoning
+				</section>
+
+				<section>
+					<h3>Remember</h3>
+					<br>
+					<ol>
+						<li class="fragment">Identifying Transactions</li>
+						<br>
+						<li class="fragment">Recording / Measuring -- Needs concepts (GAPP)</li>
+						<br>
+						<li class="fragment">Communicating (BS, OE, IS, SCF)</li>
+					</ol>
+				</section>
+
+				<section>
+					<h3>Maybe one day</h3>
+					<br>
+					<h4 class="fragment">Blockchain + ML</h4>
+					<br>
+					<p class="fragment">But we have time</p>
+				</section>
+
+				<section>
+					<h4>Thank You</h4>
+				</section>
+
+			</div>
+		</div>
+
+		<script src="js/reveal.js"></script>
+
+		<script>
+			// More info about config & dependencies:
+			// - https://github.com/hakimel/reveal.js#configuration
+			// - https://github.com/hakimel/reveal.js#dependencies
+			Reveal.initialize({
+				history: false,
+					chart: {
+						defaults: {
+							global: {
+								legend: {
+									labels: { fontSize: 25 },
+								},
+							},
+							scale: {
+								ticks: {
+									fontSize: 20
+								}
+							}
+						},
+						line: { borderColor: [ "rgba(20,220,220,.8)" , "rgba(220,120,120,.8)", "rgba(20,120,220,.8)" ], "borderDash": [ [5,10], [0,0] ]},
+						bar: { backgroundColor: [ "rgba(20,220,220,.8)" , "rgba(220,120,120,.8)", "rgba(20,120,220,.8)" ]},
+						pie: { backgroundColor: [ ["rgba(0,0,0,.8)" , "rgba(220,20,20,.8)", "rgba(20,220,20,.8)", "rgba(220,220,20,.8)", "rgba(20,20,220,.8)"] ]},
+						radar: { borderColor: [ "rgba(20,220,220,.8)" , "rgba(220,120,120,.8)", "rgba(20,120,220,.8)" ]},
+					},
+				dependencies: [
+					{ src: 'plugin/markdown/marked.js' },
+					{ src: 'plugin/markdown/markdown.js' },
+					{ src: 'plugin/notes/notes.js', async: true },
+					{ src: 'plugin/highlight/highlight.js', async: true },
+					{ src: 'plugin/chart/Chart.min.js' },
+					{ src: 'plugin/chart/csv2chart.js' },
+				]
+			});
+		</script>
+	</body>
+</html>
