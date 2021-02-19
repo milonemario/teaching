@@ -11,8 +11,9 @@
 
 [Precision Worldwide](/Strategic_Cost_Management/Spring2021/Cases/PrecisionWorldwide/PrecisionWorldwide-Slides.html)
 
-<div style="position: relative; padding-bottom: 60%;"><iframe style="width: 100%; height: 100%; position: absolute; left: 0px; top: 0px;" src="Strategic_Cost_Management/Spring2021/Cases/PrecisionWorldwide/PrecisionWorldwide-Slides.html" width="100%" height="100%">
-Browser not supported</iframe></div>
+<iframe width="800" height="600" marginheight="0" marginwidth="0" allowfullscreen src="Strategic_Cost_Management/Spring2021/Cases/PrecisionWorldwide/PrecisionWorldwide-Slides.html">
+Your browser is not supported.
+</iframe>
 
 <!--
 <iframe width="600" height="400" marginheight="0" marginwidth="0" allowfullscreen src="Strategic_Cost_Management/Spring2021/Lectures/Session01/Lecture01_partI.html">
