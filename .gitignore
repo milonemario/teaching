@@ -16,5 +16,5 @@
 !/Strategic_Cost_Management/Spring2021/Lectures/
 ## Cases
 !/Strategic_Cost_Management/Spring2021/Cases/
-/Strategic_Cost_Management/Spring2021/Cases/*
-!/Strategic_Cost_Management/Spring2021/Cases/**/*Slides*
+/Strategic_Cost_Management/Spring2021/Cases/*/*.pdf
+/Strategic_Cost_Management/Spring2021/Cases/*/*.xls
