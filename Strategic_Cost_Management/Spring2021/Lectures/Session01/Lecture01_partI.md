@@ -1,17 +1,13 @@
 ---
 title: Strategic Cost Management <br> & New Technologies
 author: Mario Milone
-#date: Tuesday, February 15, 2020
-duration: 75
 published: false
 width: 1400
 height: 1000
-#transition: concave
+transition: convex
 ---
 
-## Session 1 <br> Introduction and Concepts
-
----
+## Session 1 - Part I <br> Introduction and Concepts
 
 ### What is managerial accounting?
 

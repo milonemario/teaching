@@ -8,7 +8,13 @@
 # Allow Spring 2021
 !/Strategic_Cost_Management/Spring2021/reveal.js/
 !/Strategic_Cost_Management/Spring2021/Logos/
+## Syllabus
 !/Strategic_Cost_Management/Spring2021/Syllabus/
 /Strategic_Cost_Management/Spring2021/Syllabus/*
 !/Strategic_Cost_Management/Spring2021/Syllabus/Syllabus_MGTP495.pdf
+## Lectures
 !/Strategic_Cost_Management/Spring2021/Lectures/
+## Cases
+!/Strategic_Cost_Management/Spring2021/Cases/
+/Strategic_Cost_Management/Spring2021/Cases/*
+!/Strategic_Cost_Management/Spring2021/Cases/**/*Slides*
