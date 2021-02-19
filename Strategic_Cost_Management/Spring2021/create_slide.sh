@@ -14,7 +14,6 @@ if [ $1 = "lecture" ]; then
 		-V slideNumber="'c/t'" \
 		-V transition=convex \
 		-H $updir/header.html \
-		-H $updir/header-noprint.html \
 		-A $updir/footer.html \
 		-F pantable
 fi
@@ -33,6 +32,7 @@ if [ $1 = "case" ]; then
 		-V slideNumber="'c/t'" \
 		-V transition=convex \
 		-H $updir/header.html \
+		-H $updir/header-noprint.html \
 		-A $updir/footer.html \
 		-F pantable
 
