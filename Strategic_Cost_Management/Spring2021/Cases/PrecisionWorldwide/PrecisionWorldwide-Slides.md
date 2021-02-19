@@ -118,8 +118,8 @@ Material                            $18             $322
 Direct Labor                        $66             $197
 Departmental OH                    $131             $393
 Administrative OH                   $66             $197
-Total Cost                         $280           $1,108
--------------------------------------------------------
+__Total Cost__                 __$280__       __$1,108__
+--------------------------------------------------------
 
 Variable costs represents 40% of the departmental amounts.
 
