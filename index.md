@@ -13,6 +13,8 @@
 [Precision Worldwide](/Strategic_Cost_Management/Spring2021/Cases/PrecisionWorldwide/PrecisionWorldwide-Slides.html)
 -->
 
+Press 'f' to display in full screen.
+
 <iframe width="800" height="600" marginheight="0" marginwidth="0" allowfullscreen src="/Strategic_Cost_Management/Spring2021/Cases/PrecisionWorldwide/PrecisionWorldwide-Slides.html">
 Your browser is not supported.
 </iframe>
