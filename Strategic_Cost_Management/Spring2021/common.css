@@ -34,6 +34,14 @@
   transition: all 1s ease;
 }
 
+.reveal .slide-number a {
+  text-decoration: none;
+}
+
+.reveal .slide-number a:hover {
+  color: inherit;
+}
+
 .reveal .author {
   text-align: center;
 }
@@ -189,7 +197,7 @@
   margin-left: 40px; }
 
 .reveal li {
-  margin: 20px;
+  margin: 30px;
 }
 
 .reveal dt {
