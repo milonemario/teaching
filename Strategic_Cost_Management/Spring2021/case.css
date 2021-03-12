@@ -38,186 +38,42 @@
 }
 
 /* Tables Colors */
-.reveal table th {
+
+.reveal table {
+  box-shadow: 0 0 40px 0 rgba(255,255,255,.15);
+  -moz-box-shadow: 0 0 40px 0 rgba(255,255,255,.15);
+  -webkit-box-shadow: 0 0 40px 0 rgba(255,255,255,.15);
+  -o-box-shadow: 0 0 40px 0 rgba(255,255,255,.15);
+  -ms-box-shadow: 0 0 40px 0 rgba(255,255,255,.15);
+}
+
+.reveal table thead{
   font-weight: bold;
-  color: black;
-  background: #edba45;
+  color: white;
+  background: rgb(198, 146, 20);
 }
 
 .reveal td strong {
-  color: #6E0078;
+  /*color: #6E0078;*/
   text-decoration: none;
 }
 
 .reveal table tr.odd {
-   background: #ba8712;
+   background: rgba(198, 146, 20, .1);
  }
  .reveal table tr.even {
-   background: #d19815;
+   background: rgba(198, 146, 20, .2);
  }
 
 /* Control buttons and navigation color */
 
-.reveal .controls button {
-  color: #fff;
-}
-
-.reveal .progress {
-  color: #fff; }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-.reveal table th,
-.reveal table td {
-  text-align: auto;
-  padding: 0.2em 0.5em 0.2em 0.5em;
-  /*border-bottom: 5px white solid;*/
-  outline-offset: 20px;
-}
-
-.reveal table th[align="center"],
-.reveal table td[align="center"] {
-  text-align: center; }
-
-.reveal table th[align="right"],
-.reveal table td[align="right"] {
-  text-align: right; }
-
-.reveal table tbody tr:last-child th,
-.reveal table tbody tr:last-child td {
-  border-bottom: none; }
-
- .reveal table tr.odd {
-   background: #ba8712;
- }
- .reveal table tr.even {
-   background: #d19815;
- }
-
-.reveal sup {
-  vertical-align: super;
-  font-size: smaller; }
-
-.reveal sub {
-  vertical-align: sub;
-  font-size: smaller; }
-
-.reveal small {
-  display: inline-block;
-  font-size: 0.6em;
-  line-height: 1.2em;
-  vertical-align: top; }
-
-.reveal small * {
-  vertical-align: top; }
-
-/*********************************************
- * LINKS
- *********************************************/
-.reveal a {
-  color: #00008B;
-  text-decoration: none;
-  -webkit-transition: color .15s ease;
-  -moz-transition: color .15s ease;
-  transition: color .15s ease; }
-
-.reveal a:hover {
-  color: #0000f1;
-  text-shadow: none;
-  border: none; }
-
-.reveal .roll span:after {
-  color: #fff;
-  background: #00003f; }
-
-/*********************************************
- * IMAGES
- *********************************************/
-img {
-  width: 100%;
-  display: block;
-}
-
-.reveal section img {
-  width: 100%;
-  height: 100%;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-}
-.reveal section img {
-  /*margin: 15px 0px;
-  background: rgba(255, 255, 255, 0.12);
-  border: 4px solid #000;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);*/
-}
-
-.reveal section img.plain {
-  border: 0;
-  box-shadow: none; }
-
-.reveal a img {
-  -webkit-transition: all .15s linear;
-  -moz-transition: all .15s linear;
-  transition: all .15s linear; }
-
-.reveal a:hover img {
-  background: rgba(255, 255, 255, 0.2);
-  border-color: #00008B;
-  box-shadow: 0 0 20px rgba(0, 0, 0, 0.55); }
-
-/*********************************************
- * NAVIGATION CONTROLS
- *********************************************/
-.reveal .controls {
-  color: #00008B; }
-
-.reveal .controls button {
-  color: #fff;
-}
-
-/*********************************************
- * PROGRESS BAR
- *********************************************/
-.reveal .progress {
-  background: rgba(0, 0, 0, 0.2);
-  color: #fff; }
-
-.reveal .progress span {
-  -webkit-transition: width 800ms cubic-bezier(0.26, 0.86, 0.44, 0.985);
-  -moz-transition: width 800ms cubic-bezier(0.26, 0.86, 0.44, 0.985);
-  transition: width 800ms cubic-bezier(0.26, 0.86, 0.44, 0.985); }
-
-.reveal .slide-number {
-  background-color: transparent;
-  color: #fff;
-}
-
 .reveal .slide-number {
   background-color: #182B49;
-  color: #fff;
-  right: 150px;
-  bottom: 5%;
-  font-family: inherit;
-  font-size: 1vw;
 }
 
-/*********************************************
- * PRINT BACKGROUND
- *********************************************/
-@media print {
-  .backgrounds {
-    background-color: #fff; } }
+.reveal .controls button {
+  color: #fff;
+}
+
+.reveal .progress {
+  color: #fff; }

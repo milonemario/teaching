@@ -10,8 +10,9 @@ if [ $1 = "lecture" ]; then
 		-t revealjs \
 		$name.md -o $name.html \
 		--css $updir/lecture.css \
-		-V center=false -V revealjs-url=$updir/reveal.js -V theme=false -V navigationMode=linear \
-		-V slideNumber="'c/t'" \
+		-V center=false \
+	  -V revealjs-url=$updir/reveal.js -V theme=false -V navigationMode=linear \
+		-V slideNumber=false \
 		-V transition=convex \
 		-H $updir/header.html \
 		-A $updir/footer.html \
@@ -28,8 +29,9 @@ if [ $1 = "case" ]; then
 		-t revealjs \
 		$name.md -o $name.html \
 		--css $updir/case.css \
-		-V center=false -V revealjs-url=$updir/reveal.js -V theme=false -V navigationMode=linear \
-		-V slideNumber="'c/t'" \
+		-V center=false \
+		-V revealjs-url=$updir/reveal.js -V theme=false -V navigationMode=linear \
+		-V slideNumber=false \
 		-V transition=convex \
 		-H $updir/header.html \
 		-H $updir/header-noprint.html \

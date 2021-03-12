@@ -1,0 +1,885 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="generator" content="pandoc">
+  <meta name="author" content="Mario Milone">
+  <title>Strategic Cost Management   &amp; New Technologies</title>
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
+  <link rel="stylesheet" href="../../reveal.js/dist/reset.css">
+  <link rel="stylesheet" href="../../reveal.js/dist/reveal.css">
+  <style>
+    code{white-space: pre-wrap;}
+    span.smallcaps{font-variant: small-caps;}
+    span.underline{text-decoration: underline;}
+    div.column{display: inline-block; vertical-align: top; width: 50%;}
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    ul.task-list{list-style: none;}
+    .display.math{display: block; text-align: center; margin: 0.5rem auto;}
+  </style>
+  <link rel="stylesheet" href="../../reveal.js/dist/theme/false.css" id="theme">
+  <link rel="stylesheet" href="../../lecture.css"/>
+  <div id="header", style="display:none;">
+      <div class="header-left">RADY SCHOOL OF MANAGEMENT</div>
+      <div class="header-right">MGTP 495</div>
+      <div class="footer-left">&copy; Mario Milone, 2021 </div>
+  </div>
+
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+
+  <!-- <script type="text/javascript" id="MathJax-script" async
+    src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">
+  </script> -->
+</head>
+<body>
+  <div class="reveal">
+    <div class="slides">
+
+<section id="title-slide">
+  <h1 class="title">Strategic Cost Management <br> &amp; New Technologies</h1>
+  <p class="author">Mario Milone</p>
+</section>
+
+<section>
+<section id="session-02-cost-volume-profit" class="title-slide slide level2">
+<h2>Session 02 <br> Cost-Volume Profit</h2>
+
+</section>
+<section id="outline" class="slide level3">
+<h3>Outline</h3>
+<div>
+<ul>
+<li class="fragment">Estimating Cost Functions.</li>
+<li class="fragment">CVP Analysis:
+<ul>
+<li class="fragment">Breakeven Analysis.</li>
+<li class="fragment">Sensitivity Analysis.</li>
+<li class="fragment">Operating Leverage.</li>
+</ul></li>
+</ul>
+</div>
+</section></section>
+<section>
+<section id="estimating-cost-functions" class="title-slide slide level2">
+<h2>Estimating Cost Functions</h2>
+
+</section>
+<section id="cost-behavior" class="slide level3">
+<h3>Cost Behavior</h3>
+<p><img data-src="diagram1.svg" style="width:70.0%" /></p>
+</section>
+<section id="how-to-estimate-the-cost-functions" class="slide level3" data-transition="convex-in none-out">
+<h3 data-transition="convex-in none-out">How to estimate the cost functions?</h3>
+<p>Assume that costs are linear:</p>
+<p><span class="center-horizontal">Total Cost = Fixed Costs + Variable Costs ∗ Activity Level</span></p>
+<ul>
+<li>Standard Cost Method.
+<ul>
+<li>Gather information and estimate.</li>
+</ul></li>
+<li>Analysis of individual cost items.</li>
+<li>Visual fit.
+<ul>
+<li>Scatter plot.</li>
+</ul></li>
+</ul>
+</section>
+<section id="how-to-estimate-the-cost-functions-1" class="slide level3" data-transition="none-in none-out">
+<h3 data-transition="none-in none-out">How to estimate the cost functions?</h3>
+<p>Regression Analysis</p>
+<p><span class="math display"><em>Y</em><sub><em>t</em></sub> = <em>β</em><sub>0</sub> + <em>β</em><sub>1</sub><em>X</em><sub>1, <em>t</em></sub> + <em>ε</em><sub><em>t</em></sub></span></p>
+<div>
+<ul>
+<li class="fragment"><span class="math inline"><em>Y</em><sub><em>t</em></sub></span>: Dependent variable (Cost).</li>
+<li class="fragment"><span class="math inline"><em>X</em><sub>1, <em>t</em></sub></span>: Independent variable.</li>
+<li class="fragment"><span class="math inline"><em>β</em><sub>0</sub></span>: Fixed portion of the cost.</li>
+<li class="fragment"><span class="math inline"><em>β</em><sub>1</sub></span>: Variable portion of <span class="math inline"><em>Y</em><sub><em>t</em></sub></span>.
+<ul>
+<li class="fragment">How much 1 unit of <span class="math inline"><em>X</em><sub>1, <em>t</em></sub></span> affects <span class="math inline"><em>Y</em><sub><em>t</em></sub></span>.</li>
+</ul></li>
+</ul>
+</div>
+</section>
+<section id="how-to-estimate-the-cost-functions-2" class="slide level3" data-transition="none-in none-out">
+<h3 data-transition="none-in none-out">How to estimate the cost functions?</h3>
+<p>You can add more stuff: Multiple regression</p>
+<p><span class="math display"><em>Y</em><sub><em>t</em></sub> = <em>β</em><sub>0</sub> + <em>β</em><sub>1</sub><em>X</em><sub>1, <em>t</em></sub> + <em>β</em><sub>2</sub><em>X</em><sub>2, <em>t</em></sub> + <em>ε</em><sub><em>t</em></sub></span></p>
+<div>
+<ul>
+<li class="fragment"><span class="math inline"><em>β</em><sub>1</sub></span>: Variable portion of <span class="math inline"><em>Y</em><sub><em>t</em></sub></span>.
+<ul>
+<li class="fragment">How much 1 unit of <span class="math inline"><em>X</em><sub>1, <em>t</em></sub></span> affects <span class="math inline"><em>Y</em><sub><em>t</em></sub></span>.</li>
+</ul></li>
+<li class="fragment"><span class="math inline"><em>β</em><sub>2</sub></span>: Variable portion of <span class="math inline"><em>Y</em><sub><em>t</em></sub></span>.
+<ul>
+<li class="fragment">How much 1 unit of <span class="math inline"><em>X</em><sub>2, <em>t</em></sub></span> affects <span class="math inline"><em>Y</em><sub><em>t</em></sub></span>.</li>
+</ul></li>
+</ul>
+</div>
+</section>
+<section id="how-to-estimate-the-cost-functions-3" class="slide level3" data-transition="none-in none-out">
+<h3 data-transition="none-in none-out">How to estimate the cost functions?</h3>
+<p>What do we use regression analysis for?</p>
+<div>
+<ul>
+<li class="fragment">Classifying total costs into variable and fixed components</li>
+<li class="fragment">Separating total OH into FOH and VOH</li>
+<li class="fragment">Estimating manufacturing input costs</li>
+<li class="fragment">Estimating OH consumption patterns and selecting OH allocation bases</li>
+<li class="fragment">Using multiple bases to allocate OH costs</li>
+</ul>
+</div>
+</section>
+<section id="how-to-estimate-the-cost-functions-4" class="slide level3" data-transition="none-in none-out">
+<h3 data-transition="none-in none-out">How to estimate the cost functions?</h3>
+<p>But there is no such thing as a silver bullet</p>
+<div>
+<ul>
+<li class="fragment">It requires a lot of data</li>
+<li class="fragment">Intuition and reasoning is very important
+<ul>
+<li class="fragment">Relevant data?</li>
+<li class="fragment">How to interpret the results?</li>
+</ul></li>
+</ul>
+</div>
+</section>
+<section id="how-to-estimate-the-cost-functions-5" class="slide level3" data-transition="none-in convex-out">
+<h3 data-transition="none-in convex-out">How to estimate the cost functions?</h3>
+<p>But there is no such thing as a silver bullet</p>
+<div>
+<ul>
+<li class="fragment">Extrapolation is not a given
+<ul>
+<li class="fragment">External validity</li>
+</ul></li>
+<li class="fragment">Are the costs really linear (when using OLS)?
+<ul>
+<li class="fragment">Should we think of using non-linear estimations?</li>
+<li class="fragment">If so, how do we interpret them?</li>
+</ul></li>
+</ul>
+</div>
+</section>
+<section id="example" class="slide level3" data-transition="convex-in none-out">
+<h3 data-transition="convex-in none-out">Example</h3>
+<p>Company with 3 products: A, B and C.</p>
+<table>
+<thead>
+<tr class="header">
+<th></th>
+<th style="text-align: right;">A</th>
+<th style="text-align: right;">B</th>
+<th style="text-align: right;">C</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Sales Price</td>
+<td style="text-align: right;">$20.00</td>
+<td style="text-align: right;">$10.00</td>
+<td style="text-align: right;">$30.00</td>
+</tr>
+<tr class="even">
+<td>DM</td>
+<td style="text-align: right;">$7.00</td>
+<td style="text-align: right;">$3.75</td>
+<td style="text-align: right;">$16.60</td>
+</tr>
+<tr class="odd">
+<td>DL</td>
+<td style="text-align: right;">$2.00</td>
+<td style="text-align: right;">$1.00</td>
+<td style="text-align: right;">$3.50</td>
+</tr>
+<tr class="even">
+<td>Factory OH</td>
+<td style="text-align: right;">$5.00</td>
+<td style="text-align: right;">$2.50</td>
+<td style="text-align: right;">$8.75</td>
+</tr>
+<tr class="odd">
+<td>Marketing</td>
+<td style="text-align: right;">$3.00</td>
+<td style="text-align: right;">$1.50</td>
+<td style="text-align: right;">$4.50</td>
+</tr>
+<tr class="even">
+<td><strong>Net Unit Profit</strong></td>
+<td style="text-align: right;"><strong>$3.00</strong></td>
+<td style="text-align: right;"><strong>$1.25</strong></td>
+<td style="text-align: right;"><strong>($3.35)</strong></td>
+</tr>
+</tbody>
+</table>
+<div>
+<ul>
+<li class="fragment">The company decided to produce as few C products as possible.
+<ul>
+<li class="fragment">Increase production of product A.</li>
+<li class="fragment">Start a promotional campaign to increase the sales of product A.</li>
+</ul></li>
+</ul>
+</div>
+</section>
+<section id="example-1" class="slide level3" data-transition="none-in none-out">
+<h3 data-transition="none-in none-out">Example</h3>
+<p>Before giving the green light, management asked the controller’s office to make sure the numbers are correct.</p>
+<div>
+<ul>
+<li class="fragment">The controller estimated that:
+<ul>
+<li class="fragment">20% of the factory OH was variable.</li>
+<li class="fragment">50% of the marketing costs were also variable.</li>
+</ul></li>
+</ul>
+</div>
+</section>
+<section id="example-2" class="slide level3" data-transition="none-in none-out">
+<h3 data-transition="none-in none-out">Example</h3>
+<p>Contribution margins if the controller is correct</p>
+<table>
+<thead>
+<tr class="header">
+<th></th>
+<th style="text-align: right;">A</th>
+<th style="text-align: right;">B</th>
+<th style="text-align: right;">C</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Sales Price</td>
+<td style="text-align: right;">$20.00</td>
+<td style="text-align: right;">$10.00</td>
+<td style="text-align: right;">$30.00</td>
+</tr>
+<tr class="even">
+<td>DM</td>
+<td style="text-align: right;">$7.00</td>
+<td style="text-align: right;">$3.75</td>
+<td style="text-align: right;">$16.60</td>
+</tr>
+<tr class="odd">
+<td>DL</td>
+<td style="text-align: right;">$2.00</td>
+<td style="text-align: right;">$1.00</td>
+<td style="text-align: right;">$3.50</td>
+</tr>
+<tr class="even">
+<td><strong>Variable</strong> Factory OH (20%)</td>
+<td style="text-align: right;">$1.00</td>
+<td style="text-align: right;">$0.50</td>
+<td style="text-align: right;">$2.25</td>
+</tr>
+<tr class="odd">
+<td><strong>Variable</strong> Marketing (50%)</td>
+<td style="text-align: right;">$1.50</td>
+<td style="text-align: right;">$0.75</td>
+<td style="text-align: right;">$2.25</td>
+</tr>
+<tr class="even">
+<td><strong>Net Unit Profit</strong></td>
+<td style="text-align: right;"><strong>$8.50</strong></td>
+<td style="text-align: right;"><strong>$4.00</strong></td>
+<td style="text-align: right;"><strong>($5.90)</strong></td>
+</tr>
+</tbody>
+</table>
+<p>What should management do?</p>
+<p>How can we check if the controller is correct?</p>
+</section>
+<section id="example-3" class="slide level3" data-transition="none-in none-out">
+<h3 data-transition="none-in none-out">Example</h3>
+<ul>
+<li>Let’s get some more data.
+<ul>
+<li><p>2 production departments: Molding and Finishing.</p>
+<table>
+<thead>
+<tr class="header">
+<th></th>
+<th style="text-align: center;">A</th>
+<th style="text-align: center;">B</th>
+<th style="text-align: center;">C</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Molding</td>
+<td style="text-align: center;">2 per hour</td>
+<td style="text-align: center;">4 per hour</td>
+<td style="text-align: center;">3 per hour</td>
+</tr>
+<tr class="even">
+<td>Finishing</td>
+<td style="text-align: center;">4 per hour</td>
+<td style="text-align: center;">8 per hour</td>
+<td style="text-align: center;">1.33 per hour</td>
+</tr>
+</tbody>
+</table></li>
+</ul></li>
+<li>What data do we need to verify the controller’s information?</li>
+<li>We want to predict the OH Cost as a function of (for example) DL\$
+<ul>
+<li>We need OH cost and DL cost data</li>
+<li>We analyze both the Manufacturing OH and Marketing</li>
+</ul></li>
+</ul>
+</section>
+<section id="example-4" class="slide level3" data-transition="none-in none-out">
+<h3 data-transition="none-in none-out">Example</h3>
+<table style="width:20%;">
+<colgroup>
+<col style="width: 20%" />
+<col />
+<col />
+<col />
+<col />
+<col />
+<col />
+<col />
+</colgroup>
+<thead>
+<tr class="header">
+<th>Time</th>
+<th>DL Molding</th>
+<th>DL Finishing</th>
+<th>DL Total</th>
+<th></th>
+<th>OH Molding</th>
+<th>OH Finishing</th>
+<th>OH Total</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>1</td>
+<td>140</td>
+<td>170</td>
+<td>310</td>
+<td></td>
+<td>341</td>
+<td>434</td>
+<td>775</td>
+</tr>
+<tr class="even">
+<td>2</td>
+<td>135</td>
+<td>150</td>
+<td>285</td>
+<td></td>
+<td>340</td>
+<td>421</td>
+<td>761</td>
+</tr>
+<tr class="odd">
+<td>3</td>
+<td>140</td>
+<td>160</td>
+<td>300</td>
+<td></td>
+<td>342</td>
+<td>428</td>
+<td>770</td>
+</tr>
+<tr class="even">
+<td>4</td>
+<td>130</td>
+<td>150</td>
+<td>280</td>
+<td></td>
+<td>339</td>
+<td>422</td>
+<td>761</td>
+</tr>
+<tr class="odd">
+<td>5</td>
+<td>130</td>
+<td>155</td>
+<td>285</td>
+<td></td>
+<td>338</td>
+<td>425</td>
+<td>763</td>
+</tr>
+<tr class="even">
+<td>6</td>
+<td>125</td>
+<td>140</td>
+<td>265</td>
+<td></td>
+<td>337</td>
+<td>414</td>
+<td>751</td>
+</tr>
+<tr class="odd">
+<td>7</td>
+<td>120</td>
+<td>150</td>
+<td>270</td>
+<td></td>
+<td>335</td>
+<td>420</td>
+<td>755</td>
+</tr>
+<tr class="even">
+<td>8</td>
+<td>115</td>
+<td>140</td>
+<td>255</td>
+<td></td>
+<td>334</td>
+<td>413</td>
+<td>747</td>
+</tr>
+<tr class="odd">
+<td>9</td>
+<td>120</td>
+<td>140</td>
+<td>260</td>
+<td></td>
+<td>336</td>
+<td>414</td>
+<td>750</td>
+</tr>
+<tr class="even">
+<td>10</td>
+<td>115</td>
+<td>135</td>
+<td>250</td>
+<td></td>
+<td>335</td>
+<td>410</td>
+<td>745</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="example-5" class="slide level3" data-transition="none-in none-out">
+<h3 data-transition="none-in none-out">Example</h3>
+<p><img data-src="data1_scatter.svg" style="width:50.0%" /></p>
+</section>
+<section id="example-6" class="slide level3" data-transition="none-in none-out">
+<h3 data-transition="none-in none-out">Example</h3>
+<p><img data-src="data1_reg.svg" style="width:50.0%" /></p>
+</section>
+<section id="example-7" class="slide level3" data-transition="none-in none-out">
+<h3 data-transition="none-in none-out">Example</h3>
+<p><img data-src="data1_regfull.svg" style="width:50.0%" /></p>
+<p><span class="math display"><em>Y</em> = 618 + 0.506<em>X</em></span> <span class="math display"><em>R</em><sup>2</sup> = 0.993</span></p>
+</section>
+<section id="example-8" class="slide level3" data-transition="none-in none-out">
+<h3 data-transition="none-in none-out">Example</h3>
+<table>
+<thead>
+<tr class="header">
+<th style="text-align: center;"></th>
+<th style="text-align: center;">Sales in Thousands</th>
+<th style="text-align: center;"></th>
+<th style="text-align: center;"></th>
+<th style="text-align: center;">Costs</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: center;">Product A</td>
+<td style="text-align: center;">Product B</td>
+<td style="text-align: center;">Product C</td>
+<td style="text-align: center;">Total Sales</td>
+<td style="text-align: center;">Marketing Costs</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">2000</td>
+<td style="text-align: center;">400</td>
+<td style="text-align: center;">600</td>
+<td style="text-align: center;">3000</td>
+<td style="text-align: center;">450</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">1940</td>
+<td style="text-align: center;">430</td>
+<td style="text-align: center;">610</td>
+<td style="text-align: center;">2980</td>
+<td style="text-align: center;">445</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">1950</td>
+<td style="text-align: center;">380</td>
+<td style="text-align: center;">630</td>
+<td style="text-align: center;">2960</td>
+<td style="text-align: center;">445</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">1860</td>
+<td style="text-align: center;">460</td>
+<td style="text-align: center;">620</td>
+<td style="text-align: center;">2940</td>
+<td style="text-align: center;">438</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">1820</td>
+<td style="text-align: center;">390</td>
+<td style="text-align: center;">640</td>
+<td style="text-align: center;">2850</td>
+<td style="text-align: center;">433</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">1860</td>
+<td style="text-align: center;">440</td>
+<td style="text-align: center;">580</td>
+<td style="text-align: center;">2880</td>
+<td style="text-align: center;">437</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">1880</td>
+<td style="text-align: center;">420</td>
+<td style="text-align: center;">570</td>
+<td style="text-align: center;">2870</td>
+<td style="text-align: center;">438</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">1850</td>
+<td style="text-align: center;">380</td>
+<td style="text-align: center;">580</td>
+<td style="text-align: center;">2810</td>
+<td style="text-align: center;">434</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">1810</td>
+<td style="text-align: center;">390</td>
+<td style="text-align: center;">580</td>
+<td style="text-align: center;">2780</td>
+<td style="text-align: center;">430</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">1770</td>
+<td style="text-align: center;">290</td>
+<td style="text-align: center;">610</td>
+<td style="text-align: center;">2670</td>
+<td style="text-align: center;">425</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="example-9" class="slide level3" data-transition="none-in none-out">
+<h3 data-transition="none-in none-out">Example</h3>
+<p><img data-src="data2_scatter.svg" style="width:50.0%" /></p>
+</section>
+<section id="example-10" class="slide level3" data-transition="none-in none-out">
+<h3 data-transition="none-in none-out">Example</h3>
+<p><img data-src="data2_reg.svg" style="width:50.0%" /></p>
+</section>
+<section id="example-11" class="slide level3" data-transition="none-in none-out">
+<h3 data-transition="none-in none-out">Example</h3>
+<p><img data-src="data2_regfull.svg" style="width:50.0%" /></p>
+<p><span class="math display"><em>Y</em> = 235 + 0.0705<em>X</em></span> <span class="math display"><em>R</em><sup>2</sup> = 0.9085</span></p>
+</section>
+<section id="example-12" class="slide level3" data-transition="none-in none-out">
+<h3 data-transition="none-in none-out">Example</h3>
+<p>What did we learn?</p>
+<ul>
+<li>For Manufacturing Costs:
+<ul>
+<li>Out of an average of 750 to 800 total manufacturing OH, around 620 seems to be fixed.</li>
+<li>Around 80% fixed costs, and 20% variable costs.</li>
+</ul></li>
+<li>For Marketing Costs:
+<ul>
+<li>Out of an average of 430-450 total marketing cost, around 235 seems to be fixed.</li>
+<li>Roughly 50% fixed costs, and 50% variable costs.</li>
+</ul></li>
+</ul>
+<p>The company’s controller seems to be on track.</p>
+</section>
+<section id="example-13" class="slide level3" data-transition="none-in none-out">
+<h3 data-transition="none-in none-out">Example</h3>
+<p>Can we do better?</p>
+<p>What data can we use?</p>
+<p>Can we be more precise?</p>
+</section>
+<section id="example-14" class="slide level3" data-transition="none-in none-out">
+<h3 data-transition="none-in none-out">Example</h3>
+<p>Sure. How about we let the manufacturing OH rates vary by department.</p>
+<ul>
+<li>Run a separate regression by department.</li>
+</ul>
+<p><span class="math display">$$ \begin{align}
+OH_{molding}    &amp;= \alpha_{molding} + \beta_{molding} DL\$_{molding} \\
+OH_{finishing}  &amp;= \alpha_{finishing} + \beta_{finishing} DL\$_{finishing}
+\end{align} $$</span></p>
+<ul>
+<li>We find</li>
+</ul>
+<p><span class="math display">$$ \begin{align}
+\alpha_{molding} = 301 &amp;, \beta_{molding} = 0.29 \\
+\alpha_{finishing} = 316 &amp;, \beta_{finishing} = 0.70
+\end{align} $$</span></p>
+</section>
+<section id="example-15" class="slide level3" data-transition="none-in none-out">
+<h3 data-transition="none-in none-out">Example</h3>
+<p>The Variable OH is therefore</p>
+<p><span class="math display"><em>V</em><em>O</em><em>H</em> = 0.29 ∗ <em>D</em><em>L</em>$<sub><em>m</em><em>o</em><em>l</em><em>d</em><em>i</em><em>n</em><em>g</em></sub> + 0.70 ∗ <em>D</em><em>L</em>$<sub><em>f</em><em>i</em><em>n</em><em>i</em><em>s</em><em>h</em><em>i</em><em>n</em><em>g</em></sub></span></p>
+<p>How would that impact the contribution margins of the products?</p>
+</section>
+<section id="example-16" class="slide level3" data-transition="none-in none-out">
+<h3 data-transition="none-in none-out">Example</h3>
+<p>How would that impact the contribution margins of the products?</p>
+<table>
+<thead>
+<tr class="header">
+<th></th>
+<th style="text-align: center;">A</th>
+<th style="text-align: center;">B</th>
+<th style="text-align: center;">C</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Molding</td>
+<td style="text-align: center;">2 per hour</td>
+<td style="text-align: center;">4 per hour</td>
+<td style="text-align: center;">3 per hour</td>
+</tr>
+<tr class="even">
+<td>Finishing</td>
+<td style="text-align: center;">4 per hour</td>
+<td style="text-align: center;">8 per hour</td>
+<td style="text-align: center;">1.33 per hour</td>
+</tr>
+</tbody>
+</table>
+<ul>
+<li>It would penalize products that consume more finishing.
+<ul>
+<li>Product C would look less attractive if OH varies by department.</li>
+</ul></li>
+</ul>
+</section></section>
+<section>
+<section id="cvp-analysis" class="title-slide slide level2">
+<h2>CVP Analysis</h2>
+
+</section>
+<section id="cvp-analysis-1" class="slide level3">
+<h3>CVP Analysis</h3>
+<ul>
+<li>CVP uses fixed and variable cost patterns to asses the profitability of decisions.
+<ul>
+<li>Product lines, investments,etc.</li>
+</ul></li>
+<li>Uses of CVP:
+<ul>
+<li>Determine price floors.</li>
+<li>Simulation and sensitivity analysis.</li>
+<li>Breakeven analysis.</li>
+<li>Operating leverage.</li>
+<li>Budgeting.</li>
+</ul></li>
+</ul>
+</section>
+<section id="cvp-analysis---outline" class="slide level3">
+<h3>CVP Analysis - Outline</h3>
+<p>Breakeven Analysis</p>
+<ul>
+<li>With and without uncertainty</li>
+</ul>
+<p>Sensitivity Analysis</p>
+<p>Operating Leverage</p>
+</section>
+<section id="breakeven-analysis" class="slide level3">
+<h3>Breakeven Analysis</h3>
+<p>TODO: FINISH FROM HERE.</p>
+</section>
+<section id="example-1-1" class="slide level3">
+<h3>Example 1</h3>
+<p>A firm with 2 divisions sell 2 different products</p>
+<p>How many boards does the first division need to break even?</p>
+<p>How many discs does the second division need to sell to break even?</p>
+<p>A firm with 2 divisions sell 2 different products</p>
+<ul>
+<li>The firm’s HQ generated no revenue but costs \$180,000.
+<ul>
+<li>Will the firm break even if the 2 divisions sell the breakeven amounts previously calculated?</li>
+</ul></li>
+<li>Assume the following</li>
+<li>What is the breakeven number of units for each division if corporate OH is allocated on the basis of direct labor hours?</li>
+<li>Same question if OH allocated on the basis of machine hours?</li>
+</ul>
+<p>OH allocated on the basis of DL hours</p>
+<p>OH allocated on the basis of Machine hours</p>
+</section>
+<section id="breakeven-analysis-multiple-products" class="slide level3">
+<h3>Breakeven Analysis – Multiple Products</h3>
+</section>
+<section id="example-2-multiple-products" class="slide level3">
+<h3>Example 2 – Multiple Products</h3>
+<ul>
+<li>A company sells 3 products with fixed costs of \$77,777</li>
+<li>What is the Weighted Average Contribution Margin per unit (WACM/unit)?
+<ul>
+<li>Weighted average o the CM (weighted by the probability of being sold)</li>
+</ul></li>
+<li>What is the breakeven in units and in Sales?</li>
+</ul>
+<p>A company sells 3 products with <strong>fixed costs of \$77,777</strong></p>
+</section>
+<section id="breakeven-under-uncertainty" class="slide level3">
+<h3>Breakeven Under Uncertainty</h3>
+<ul>
+<li>So far, we have not incorporated the fact that the future is uncertain
+<ul>
+<li>How likely are we to break even?</li>
+</ul></li>
+<li>We can try to estimate this probability</li>
+<li>We need to have an idea of the distribution of the variable of interest
+<ul>
+<li>How are sales likely to be distributed?</li>
+<li>Normal Distribution?</li>
+<li>Uniform Distribution?</li>
+</ul></li>
+</ul>
+</section>
+<section id="example-17" class="slide level3">
+<h3>Example</h3>
+</section>
+<section id="sensitivity-analysis" class="slide level3">
+<h3>Sensitivity Analysis</h3>
+<ul>
+<li>How sensitive is our analysis to our assumptions?</li>
+<li>What will happen if
+<ul>
+<li>Quantity of unit sold decreases?</li>
+<li>Prices changes?</li>
+<li>etc</li>
+</ul></li>
+</ul>
+</section>
+<section id="example-18" class="slide level3">
+<h3>Example</h3>
+<ul>
+<li>Let us use the same example</li>
+<li>What would happen if price decrease by 10%?
+<ul>
+<li>How would it change the breakeven point?</li>
+</ul></li>
+</ul>
+<p>A 10% decrease in price increases the breakeven point by 16%</p>
+</section>
+<section id="operating-leverage" class="slide level3">
+<h3>Operating Leverage</h3>
+</section>
+<section id="example-19" class="slide level3">
+<h3>Example</h3>
+<p>What are the DOL and the effect on profit if sales increase by 100 units (10%)</p>
+</section>
+<section id="takeaways" class="slide level3">
+<h3>Takeaways</h3>
+<ul>
+<li>We have tools to understand how costs behave.</li>
+<li>Estimating cost functions can be done using quantitative methods
+<ul>
+<li>Regression analysis</li>
+<li>Or other fancy prediction methods you like</li>
+<li>But always need to interpret the results and use economic intuition</li>
+</ul></li>
+<li>We have tools to understand how profits behave
+<ul>
+<li>Breakeven analysis gives important information for strategic decision</li>
+<li>Uncertainty can be captured and sensitivity analysis allows to plan for different scenarios</li>
+<li>Don’t forget about operating leverage!</li>
+</ul></li>
+</ul>
+</section></section>
+    </div>
+  </div>
+
+  <script src="../../reveal.js/dist/reveal.js"></script>
+
+  // reveal.js plugins
+  <script src="../../reveal.js/plugin/notes/notes.js"></script>
+  <script src="../../reveal.js/plugin/search/search.js"></script>
+  <script src="../../reveal.js/plugin/zoom/zoom.js"></script>
+
+  <script>
+
+      // Full list of configuration options available at:
+      // https://revealjs.com/config/
+      Reveal.initialize({
+        // Display the page number of the current slide
+        slideNumber: false,
+        // Push each slide change to the browser history
+        history: true,
+        // Vertical centering of slides
+        center: false,
+        // see https://revealjs.com/vertical-slides/#navigation-mode
+        navigationMode: 'linear',
+        // Transition style
+        transition: 'convex', // none/fade/slide/convex/concave/zoom
+        // The "normal" size of the presentation, aspect ratio will be preserved
+        // when the presentation is scaled to fit different resolutions. Can be
+        // specified using percentage units.
+        width: 1400,
+        height: 1000,
+
+        // reveal.js plugins
+        plugins: [
+          RevealNotes,
+          RevealSearch,
+          RevealZoom
+        ]
+      });
+    </script>
+    <!-- Additional plugins -->
+    <script src="../../reveal.js/plugin/chalkboard/plugin.js"></script>
+    <script src="../../reveal.js/plugin/math/math.js"></script>
+    <script src="../../reveal.js/plugin/chart/Chart.min.js"></script>
+    <script src="../../reveal.js/plugin/chart/plugin.js"></script>
+
+
+    <script>
+      Reveal.initialize({
+        pdfSeparateFragments: false,
+        plugins: [
+          RevealMath,
+          RevealNotes,
+          RevealSearch,
+          RevealZoom,
+          RevealChalkboard,
+          RevealChart
+        ],
+        chalkboard: {
+          toggleNotesButton: false,
+          toggleChalkboardButton: false,
+          boardmarkerWidth: 2,
+          chalkWidth: 2,
+          chalkEffect: 0,
+          readOnly: false,
+          src: 'chalkboard.json'
+        },
+        math: {
+          tex2jax: {
+            processEscapes: true,
+          }
+        }
+      });
+    </script>
+
+    <script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
+    <script type="text/javascript">
+        // 3. On Reveal.js ready event, copy header/footer <div> into each `.slide-background` <div>
+        var header = $('#header').html();
+        if ( window.location.search.match( /print-pdf/gi ) ) {
+            Reveal.addEventListener( 'ready', function( event ) {
+                $('.slide-background').append(header);
+            });
+        }
+        else {
+            $('div.reveal').append(header);
+       }
+    </script>
+    </body>
+</html>

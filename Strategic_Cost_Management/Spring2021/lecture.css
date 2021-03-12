@@ -8,12 +8,15 @@
  * Background and Text Color
  ***********************/
 
+
 .reveal-viewport {
-  background: #fff;
-  background-color: #fff; }
+  background-image: url("https://images.pexels.com/photos/3183153/pexels-photo-3183153.jpeg?cs=srgb&dl=pexels-fauxels-3183153.jpg&fm=jpg");
+  background-size: 100%;
+}
 
 .reveal {
   color: #000;
+  background-color: rgba(255, 255, 255, .9);
 }
 
 /**************************
@@ -37,21 +40,33 @@
   color: blue;
 }
 
+.reveal table {
+  box-shadow: 0 0 40px 0 rgba(0,0,0,.15);
+  -moz-box-shadow: 0 0 40px 0 rgba(0,0,0,.15);
+  -webkit-box-shadow: 0 0 40px 0 rgba(0,0,0,.15);
+  -o-box-shadow: 0 0 40px 0 rgba(0,0,0,.15);
+  -ms-box-shadow: 0 0 40px 0 rgba(0,0,0,.15);
+}
+
 /* Tables Colors */
-.reveal table th {
+.reveal table thead {
   font-weight: bold;
   color: white;
-  background: #e68a00;
+  background: rgb(230, 138, 0);
 }
 
 .reveal table tr.odd {
-  background: #ffe0b3;
+  background: rgba(230, 138, 0, .1);
 }
 .reveal table tr.even {
-  background: #ffebcc;
+  background: rgba(230, 138, 0, .2);
 }
 
 /* Control buttons and navigation color */
+
+.reveal .slide-number {
+  background-color: #fff;
+}
 
 .reveal .controls button {
   color: #182B49;

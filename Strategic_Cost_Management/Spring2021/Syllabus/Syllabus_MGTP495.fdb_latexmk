@@ -1,5 +1,5 @@
 # Fdb version 3
-["pdflatex"] 1613352000 "Syllabus_MGTP495.tex" "Syllabus_MGTP495.pdf" "Syllabus_MGTP495" 1613352001
+["pdflatex"] 1615312118 "Syllabus_MGTP495.tex" "Syllabus_MGTP495.pdf" "Syllabus_MGTP495" 1615312119
   "/etc/texmf/web2c/texmf.cnf" 1608739751 475 c0e671620eb5563b2130f56340a5fde8 ""
   "/usr/share/texlive/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/jknappen/ec/ecbx1000.tfm" 1136768653 3584 2d666ecf6d466d8b007246bc2f94d9da ""
@@ -84,12 +84,12 @@
   "/usr/share/texmf/web2c/texmf.cnf" 1581979058 38841 ce3692aa899bb693b90b87eaa5d4d84e ""
   "/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map" 1608739817 4770781 1ed1abab22da9c3e2cc82e4db562318b ""
   "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1608739869 8255684 3141556689b01f7005c4b2693590d4de ""
-  "Syllabus_MGTP495.aux" 1613352001 662 b2b94621371df8d9296b8bf5bec1b851 "pdflatex"
-  "Syllabus_MGTP495.out" 1613352000 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
-  "Syllabus_MGTP495.tex" 1613351992 8788 e5e4fc7a0dbf1ced37cda634d072a8a2 ""
+  "Syllabus_MGTP495.aux" 1615312119 662 b2b94621371df8d9296b8bf5bec1b851 "pdflatex"
+  "Syllabus_MGTP495.out" 1615312118 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
+  "Syllabus_MGTP495.tex" 1615312115 8862 b1c1d235afb8e538580afb29125222a8 ""
   "rady-logo.png" 1584317019 29599 535d7031149950f1132f5671e3800498 ""
   (generated)
-  "Syllabus_MGTP495.log"
+  "Syllabus_MGTP495.out"
   "Syllabus_MGTP495.aux"
   "Syllabus_MGTP495.pdf"
-  "Syllabus_MGTP495.out"
+  "Syllabus_MGTP495.log"
